@@ -7,9 +7,9 @@
     <class>chl.hajo.library.core.Publication</class>
     <exclude-unlisted-classes>true</exclude-unlisted-classes>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/library?zeroDateTimeBehavior=convertToNull"/>
-      <property name="javax.persistence.jdbc.user" value="hajo"/>
-      <property name="javax.persistence.jdbc.password" value="hajo"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/library"/>
+      <property name="javax.persistence.jdbc.user" value="app"/>
+      <property name="javax.persistence.jdbc.password" value="app"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
     </properties>
   </persistence-unit>
