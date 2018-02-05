@@ -26,10 +26,7 @@ public class ApplicationConfig extends Application {
      */
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(chl.hajo.library.rest.AuthorResource.class);
-<<<<<<< HEAD
         resources.add(chl.hajo.library.rest.BookResource.class);
-=======
->>>>>>> efff0fe1f65df167de227736289e49a8ba20b618
         resources.add(chl.hajo.library.rest.CORSFilter.class);
         resources.add(chl.hajo.library.rest.DatabaseResource.class);
     }

@@ -3,7 +3,7 @@ package chl.hajo.library.dao;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-<<<<<<< HEAD
+
 import static java.lang.System.out;
 
 import chl.hajo.library.core.Book;
@@ -51,19 +51,4 @@ public class BookCatalogue  extends AbstractQuery<Book, String>{
        return found;
        
     }
-=======
-
-/**
- * All orders Responsible for putting new PurchaseOrders objects into the model
- *
- * @author hajo
- */
-@Stateless
-public class BookCatalogue  {
-
-    @PersistenceContext(unitName = "library_pu")
-    private EntityManager em;
-
-   
->>>>>>> efff0fe1f65df167de227736289e49a8ba20b618
 }

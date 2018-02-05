@@ -1,6 +1,6 @@
 package chl.hajo.library.core;
 
-<<<<<<< HEAD
+
 import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -52,17 +52,4 @@ public class Book implements Serializable {
                 + title + ", genre=" + genre
                 +  ", price=" + price + '}';
     }
-=======
-/**
- * A book written by some author(s)
- *
- * @author hajo
- */
-
-
-public class Book  {
-
-   
->>>>>>> efff0fe1f65df167de227736289e49a8ba20b618
-
 }
